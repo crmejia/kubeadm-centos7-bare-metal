@@ -16,9 +16,12 @@ $sudo dd if=<path to your ISO>/CentOS-7-x86_64-Minimal-1708.iso of=/dev/rdisk2 b
 #### Install & Configure
 Once the USB is ready, boot your machines with it. Installation is straightforward. I went with the defaults and added a simple root password. Later I realized I should have:
 * Initialized the network.
+* Set up a static IP, so is easier to ssh down the line.(or don't be so strict
+  with ssh policy)
 * Changed the hostname
 * Added a user with administrator power.
 * Disable the swap partition.
+
 
 I found this guide(https://www.tecmint.com/centos-7-installation/) afterwards while trying to configure the system. Here's what you have to do to setup the network, hostname, add a admin user, and disable the swap partition:
 
