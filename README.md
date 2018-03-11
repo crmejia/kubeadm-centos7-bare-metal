@@ -3,6 +3,6 @@ using CentOS 7 and Kubeadm.
 
 ### Steps
 
-* [CentOS 7 installation](01-CentOS-installation.md)
-* [Cluster bootstrapping with kubeadm](02-Cluster-bootstrapping-kubeadm.md)
-* [Smoke Test](03-smoke-and-mirrors.md)
+1. [CentOS 7 installation](01-CentOS-installation.md)
+2. [Cluster bootstrapping with kubeadm](02-Cluster-bootstrapping-kubeadm.md)
+3. [Smoke Test](03-smoke-and-mirrors.md)
